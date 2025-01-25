@@ -19,7 +19,7 @@ assets:
   - name: obj/P_EX100_ULTF.mdlx
   - name: obj/P_EX100_MEMO.mdlx
   - name: obj/P_EX100_NM.mdlx
-  - name: obj/P_EX100_NM_BLTF.mdlx
+  - name: obj/P_EX100_NM_BTLF.mdlx
   - name: obj/P_EX100_NM_HTLF.mdlx
   - name: obj/P_EX100_NM_TRIF.mdlx
   - name: obj/P_EX100_NM_ULTF.mdlx
@@ -28,7 +28,6 @@ assets:
   - name: obj/P_EX100_TR.mdlx
   - name: obj/P_EX100_TR_BTLF.mdlx
   - name: obj/P_EX100_TR_HTLF.mdlx
-  - name: obj/P_EX100_TR_LIGHTCYCLE.mdlx
   - name: obj/P_EX100_TR_TRIF.mdlx
   - name: obj/P_EX100_TR_ULTF.mdlx
   - name: obj/P_EX100_WI.mdlx
@@ -49,6 +48,10 @@ assets:
   method: copy
   source:
   - name: M/cat.mdlx
+- name: obj/P_EX100_TR_LIGHTCYCLE.mdlx
+  method: copy
+  source:
+  - name: M/Cycle_cat.mdlx
 - name: obj/PO06_PLAYER.mdlx
   method: copy
   source:
@@ -63,9 +66,9 @@ assets:
   - name: M/PO8_cat.mdlx
 - name: obj/P_EX120.mdlx
   multi:
-  - name: obj_P_EX120_NPC_BLUE.mdlx
-  - name: obj_P_EX120_NPC_RED.mdlx
-  - name: obj_P_EX120_NPC_GREEN.mdlx
+  - name: obj/P_EX120_NPC_BLUE.mdlx
+  - name: obj/P_EX120_NPC_RED.mdlx
+  - name: obj/P_EX120_NPC_GREEN.mdlx
   method: copy
   source:
   - name: M/KH1S_cat.mdlx
@@ -96,6 +99,12 @@ assets:
   - name: remastered/obj/P_EX100_NM.mdlx/-0.dds
   - name: remastered/obj/P_EX100_WI.mdlx/-0.dds
   - name: remastered/obj/P_EX100_TR.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_XM.mdlx/-0.dds
+  - name: remastered/obj/H_EX500.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_NM.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_XM.mdlx/-0.dds
   method: copy
   source:
   - name: T/Base.dds
@@ -104,6 +113,12 @@ assets:
   - name: remastered/obj/P_EX100_BTLF_NM.mdlx/-0.dds
   - name: remastered/obj/P_EX100_BTLF_WI.mdlx/-0.dds
   - name: remastered/obj/P_EX100_BTLF_TR.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_BTLF_XM.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_BTLF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_NM_BTLF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR_BTLF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI_BTLF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_XM_BTLF.mdlx/-0.dds
   method: copy
   source:
   - name: T/Valor.dds
@@ -112,6 +127,12 @@ assets:
   - name: remastered/obj/P_EX100_MAGF_NM.mdlx/-0.dds
   - name: remastered/obj/P_EX100_MAGF_WI.mdlx/-0.dds
   - name: remastered/obj/P_EX100_MAGF_TR.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_MAGF_XM.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_MAGF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_NM_MAGF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR_MAGF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI_MAGF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_XM_MAGF.mdlx/-0.dds
   method: copy
   source:
   - name: T/Wisdom.dds
@@ -120,6 +141,12 @@ assets:
   - name: remastered/obj/P_EX100_TRIF_NM.mdlx/-0.dds
   - name: remastered/obj/P_EX100_TRIF_WI.mdlx/-0.dds
   - name: remastered/obj/P_EX100_TRIF_TR.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_TRIF_XM.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TRIF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_NM_TRIF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR_TRIF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI_TRIF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI_TRIF.mdlx/-0.dds
   method: copy
   source:
   - name: T/Master.dds
@@ -128,6 +155,12 @@ assets:
   - name: remastered/obj/P_EX100_ULTF_NM.mdlx/-0.dds
   - name: remastered/obj/P_EX100_ULTF_WI.mdlx/-0.dds
   - name: remastered/obj/P_EX100_ULTF_TR.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_ULTF_XM.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_ULTF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_NM_ULTF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR_ULTF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI_ULTF.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_XM_ULTF.mdlx/-0.dds
   method: copy
   source:
   - name: T/Final.dds
@@ -136,6 +169,12 @@ assets:
   - name: remastered/obj/P_EX100_KH1F_NM.mdlx/-0.dds
   - name: remastered/obj/P_EX100_KH1F_WI.mdlx/-0.dds
   - name: remastered/obj/P_EX100_KH1F_TR.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_KH1F_XM.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_KH1F.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_NM_KH1F.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_TR_KH1F.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_WI_KH1F.mdlx/-0.dds
+  - name: remastered/obj/H_EX500_XM_KH1F.mdlx/-0.dds
   method: copy
   source:
   - name: T/Limit.dds
@@ -144,25 +183,28 @@ assets:
   - name: remastered/obj/P_EX100_HTLF_NM.mdlx/-0.dds
   - name: remastered/obj/P_EX100_HTLF_WI.mdlx/-0.dds
   - name: remastered/obj/P_EX100_HTLF_TR.mdlx/-0.dds
+  - name: remastered/obj/P_EX100_HTLF_XM.mdlx/-0.dds
   method: copy
   source:
   - name: T/Anti.dds
-- name: remastered/obj/P_EX120.mdlx/-0.dds
+- name: remastered/obj/P_EX120.mdlx/-1.dds
   multi:
-  - name: remastered/obj_P_EX120_NPC_BLUE.mdlx/-0.dds
-  - name: remastered/obj_P_EX120_NPC_RED.mdlx/-0.dds
-  - name: remastered/obj_P_EX120_NPC_GREEN.mdlx/-0.dds
+  - name: remastered/obj/P_EX120_NPC_BLUE.mdlx/-1.dds
+  - name: remastered/obj/P_EX120_NPC_RED.mdlx/-1.dds
+  - name: remastered/obj/P_EX120_NPC_GREEN.mdlx/-1.dds
+  - name: remastered/obj/H_EX790.mdlx/-1.dds
   method: copy
   source:
   - name: T/kh1s.dds
-- name: remastered/obj/P_EX120.mdlx/-1.dds
+- name: remastered/obj/P_EX120.mdlx/-0.dds
   multi:
-  - name: remastered/obj_P_EX120_NPC_BLUE.mdlx/-1.dds
-  - name: remastered/obj_P_EX120_NPC_RED.mdlx/-1.dds
-  - name: remastered/obj_P_EX120_NPC_GREEN.mdlx/-1.dds
+  - name: remastered/obj/P_EX120_NPC_BLUE.mdlx/-0.dds
+  - name: remastered/obj/P_EX120_NPC_RED.mdlx/-0.dds
+  - name: remastered/obj/P_EX120_NPC_GREEN.mdlx/-0.dds
+  - name: remastered/obj/H_EX790.mdlx/-0.dds
   method: copy
   source:
-  - name: T/base.dds
+  - name: T/baseB.dds
 - name: obj/H_EX500.mdlx
   multi: 
   - name: obj/H_EX501.mdlx
@@ -214,24 +256,30 @@ assets:
   - name: remastered/obj/P_EX100_NM_ULTF.a.us/-10.dds
   - name: remastered/obj/P_EX100_NM_HTLF.a.us/-3.dds
   - name: remastered/obj/P_EX120.a.us/-8.dds
-  - name: remastered/obj/P_EX100_SIDECAR.a.us/-8.dds
   - name: remastered/obj/PO07_PLAYER.a.us/-0.dds
   - name: remastered/obj/PO08_PLAYER.a.us/-0.dds
   method: copy
   source:
   - name: HUD/Base.dds
+- name: remastered/obj/P_EX100_SIDECAR.a.us/-8.png
+  method: copy
+  source:
+  - name: HUD/Base.png
 - name: remastered/obj/P_EX100_TR.a.us/-8.dds
   multi:
   - name: remastered/obj/P_EX100_TR_BTLF.a.us/-4.dds
   - name: remastered/obj/P_EX100_TR_HTLF.a.us/-3.dds
   - name: remastered/obj/P_EX100_TR_KH1F.a.us/-9.dds
-  - name: remastered/obj/P_EX100_TR_LIGHTCYCLE.a.us/-8.dds
   - name: remastered/obj/P_EX100_TR_MAGF.a.us/-2.dds
   - name: remastered/obj/P_EX100_TR_TRIF.a.us/-5.dds
   - name: remastered/obj/P_EX100_TR_ULTF.a.us/-10.dds
   method: copy
   source:
   - name: HUD/TR.dds
+- name: remastered/obj/P_EX100_TR_LIGHTCYCLE.a.us/-8.png
+  method: copy
+  source:
+  - name: HUD/TR.png
 - name: remastered/obj/P_EX100_WI.a.us/-8.dds
   multi:
   - name: remastered/obj/P_EX100_WI_BTLF.a.us/-4.dds
@@ -243,7 +291,7 @@ assets:
   method: copy
   source:
   - name: HUD/WI.dds
-- name: remastered/obj/P_EX100_XM_BTLF.a.us/-4.dds
+- name: remastered/obj/P_EX100_XM.a.us/-8.dds
   multi:
   - name: remastered/obj/P_EX100_XM_BTLF.a.us/-4.dds
   - name: remastered/obj/P_EX100_XM_HTLF.a.us/-3.dds
