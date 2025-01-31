@@ -13,32 +13,27 @@ assets:
   - name: obj/LAST_HITMARK.mdlx
   - name: obj/P_EX100_AL_CARPET.mdlx
   - name: obj/P_EX100_BTLF.mdlx
-  - name: obj/P_EX100_HTLF.mdlx
   - name: obj/P_EX100_LAST.mdlx
   - name: obj/P_EX100_TRIF.mdlx
   - name: obj/P_EX100_ULTF.mdlx
   - name: obj/P_EX100_MEMO.mdlx
   - name: obj/P_EX100_NM.mdlx
   - name: obj/P_EX100_NM_BTLF.mdlx
-  - name: obj/P_EX100_NM_HTLF.mdlx
   - name: obj/P_EX100_NM_TRIF.mdlx
   - name: obj/P_EX100_NM_ULTF.mdlx
   - name: obj/P_EX100_NPC.mdlx
   - name: obj/P_EX100_SIDECAR.mdlx
   - name: obj/P_EX100_TR.mdlx
   - name: obj/P_EX100_TR_BTLF.mdlx
-  - name: obj/P_EX100_TR_HTLF.mdlx
   - name: obj/P_EX100_TR_TRIF.mdlx
   - name: obj/P_EX100_TR_ULTF.mdlx
   - name: obj/P_EX100_WI.mdlx
   - name: obj/P_EX100_WI_BTLF.mdlx
-  - name: obj/P_EX100_WI_HTLF.mdlx
   - name: obj/P_EX100_WI_TRIF.mdlx
   - name: obj/P_EX100_WI_ULTF.mdlx
   - name: obj/P_EX100_WM.mdlx
   - name: obj/P_EX100_XM.mdlx
   - name: obj/P_EX100_XM_BTLF.mdlx
-  - name: obj/P_EX100_XM_HTLF.mdlx
   - name: obj/P_EX100_XM_TRIF.mdlx
   - name: obj/P_EX100_XM_ULTF.mdlx
   - name: obj/PLAYER.mdlx
@@ -90,6 +85,19 @@ assets:
   method: copy
   source:
   - name: M/L_cat.mdlx
+- name: obj/P_EX100_HTLF.mdlx
+  multi:
+  - name: obj/P_EX100_NM_HTLF.mdlx
+  - name: obj/P_EX100_TR_HTLF.mdlx
+  - name: obj/P_EX100_WI_HTLF.mdlx
+  - name: obj/P_EX100_XM_HTLF.mdlx
+  method: copy
+  source:
+  - name: M/A_cat.mdlx
+- name: obj/P_EX100_HTLF_BTL.mdlx
+  method: copy
+  source:
+  - name: M/A_catB.mdlx
 - name: remastered/obj/P_EX100.mdlx/-0.dds
   multi:
   - name: remastered/obj/P_EX100_AL_CARPET.mdlx/-0.dds
