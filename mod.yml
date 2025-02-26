@@ -249,7 +249,7 @@ assets:
 - name: remastered/obj/P_EX100.a.us/-8.dds
   multi:
   - name: remastered/obj/P_EX100_AL_CARPET.a.us/-8.dds
-  - name: remastered/obj/AL14_PLAYER/.a.us/-8.dds
+  - name: remastered/obj/AL14_PLAYER.a.us/-8.dds
   - name: remastered/obj/P_EX100_BTLF.a.us/-4.dds
   - name: remastered/obj/P_EX100_HTLF.a.us/-3.dds
   - name: remastered/obj/P_EX100_KH1F.a.us/-9.dds
